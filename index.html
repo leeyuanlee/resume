@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Resume of Jane Doe - Full Stack Developer">
-  <title>Resume - Jane Doe</title>
+  <meta name="description" content="Resume of Lee Yuan Lee - AI-Powered Full-Stack Developer">
+  <title>Resume - Lee Yuan Lee</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@500;700&family=Muli:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
@@ -94,6 +94,28 @@
     .item .date { float: right; font-style: italic; }
     .item p { margin-top: 0.5rem; }
 
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem; }
+    .card {
+      border: 1px solid #e9ecef;
+      border-radius: 6px;
+      padding: 1.2rem 1.4rem;
+      background: #fff;
+    }
+    .card h3 { font-size: 1.25rem; margin-bottom: 0.3rem; }
+    .card h4 { color: var(--primary); font-size: 0.95rem; font-weight: 600; margin-bottom: 0.5rem; }
+    .card p { font-size: 0.95rem; }
+    .card .tags { margin-top: 0.7rem; }
+    .card .tags span {
+      display: inline-block;
+      background: #f5f5f5;
+      border: 1px solid #e9ecef;
+      border-radius: 4px;
+      padding: 0.15rem 0.6rem;
+      margin: 0.15rem 0.2rem 0 0;
+      font-size: 0.8rem;
+      color: var(--dark);
+    }
+
     #skills ul { list-style: none; padding: 0; }
     #skills ul li {
       display: inline-block;
@@ -106,14 +128,13 @@
       color: var(--dark);
     }
 
-    #awards ol { padding-left: 1.2rem; }
-    #awards ol li { margin-bottom: 0.5rem; }
+    #education .date { float: right; font-style: italic; }
 
     @media (max-width: 992px) {
       #side-nav { position: static; width: 100%; height: auto; padding: 2rem 0; }
       main { margin-left: 0; }
       #about h1 { font-size: 3rem; }
-      .item .date { float: none; display: block; margin-top: 0.2rem; }
+      .item .date, #education .date { float: none; display: block; margin-top: 0.2rem; }
     }
   </style>
 </head>
@@ -126,87 +147,146 @@
       <a href="#experience">Experience</a>
       <a href="#education">Education</a>
       <a href="#skills">Skills</a>
-      <a href="#interests">Interests</a>
-      <a href="#awards">Awards</a>
+      <a href="#projects">Projects</a>
     </nav>
   </aside>
 
   <main>
     <section id="about">
-      <h1>Jane <span class="highlight">Doe</span></h1>
-      <div class="subheading">3542 Berry Street · Springfield, MA 01108 · (555) 123-4567 · <a href="mailto:jane.doe@example.com">jane.doe@example.com</a></div>
-      <p class="lead">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+      <h1>Lee Yuan <span class="highlight">Lee</span></h1>
+      <div class="subheading">AI-Powered Full-Stack Developer · Miri, Sarawak, Malaysia · <a href="mailto:leeyuanlee@gmail.com">leeyuanlee@gmail.com</a></div>
+      <p class="lead">With over 17 years of experience in web development, IT support, and system integration, I specialize in building reliable, data-driven applications that streamline business operations. Now working as a freelance web developer helping businesses build custom web apps and PWAs, with expertise spanning PHP, MySQL, JavaScript, CodeIgniter, and WordPress — accelerated by AI agents to deliver faster and more reliable results.</p>
       <div class="social">
-        <a href="#" aria-label="LinkedIn">in</a>
-        <a href="#" aria-label="GitHub">GH</a>
-        <a href="#" aria-label="Twitter">X</a>
-        <a href="#" aria-label="Facebook">f</a>
+        <a href="https://linkedin.com/in/leeyuanlee" aria-label="LinkedIn">in</a>
+        <a href="https://github.com/Lucky-Sphere" aria-label="GitHub">GH</a>
+        <a href="mailto:leeyuanlee@gmail.com" aria-label="Email">@</a>
       </div>
     </section>
 
     <section id="experience">
       <h2 class="section-title">Experience</h2>
       <div class="item">
-        <div class="date">March 2021 - Present</div>
-        <h3>Senior Web Developer</h3>
-        <h4>TechCorp Inc.</h4>
-        <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.</p>
+        <div class="date">Jul 2026 - Present</div>
+        <h3>AI-Powered Full-Stack Developer</h3>
+        <h4>Freelance / Self-Employed · Miri (Remote)</h4>
+        <p>Build custom web applications and PWAs for small to medium businesses using PHP, CodeIgniter 4, and WordPress. Design and implement AI-driven automation agents to streamline repetitive business tasks and improve operational efficiency. Develop data visualization dashboards that consolidate multi-source data into clear, actionable charts and reports. Advise clients on web architecture, SEO, and system integration to maximize their digital presence.</p>
       </div>
       <div class="item">
-        <div class="date">June 2018 - February 2021</div>
+        <div class="date">Sep 2017 - Jun 2026</div>
+        <h3>Executive</h3>
+        <h4>Emart Holdings Sdn Bhd · Miri</h4>
+        <p>Developed and maintained web applications using CodeIgniter 4 and WordPress to support daily retail operations. Built a custom progressive web app (PWA) that collects sales data from all outlets into clear charts and tables. Used PHP, MySQL, JavaScript, and Google Charts to ensure smooth performance and reliable data visualization.</p>
+      </div>
+      <div class="item">
+        <div class="date">Jun 2016 - Aug 2017</div>
+        <h3>IT Technician</h3>
+        <h4>Petro-Excel Sdn Bhd · Miri</h4>
+        <p>Provided technical support for computer systems, networks, and internet connectivity. Installed and configured hardware/software, diagnosed and resolved system issues. Maintained domain and web hosting services; applied SEO techniques to strengthen brand visibility.</p>
+      </div>
+      <div class="item">
+        <div class="date">Oct 2014 - Dec 2015</div>
+        <h3>Consultant</h3>
+        <h4>NetBuilder (M) Sdn Bhd · Miri</h4>
+        <p>Maintained and developed client websites ensuring smooth performance and up-to-date content. Provided technical support and documentation to help clients manage their systems effectively. Collaborated with peers to deliver reliable, user-friendly web solutions.</p>
+      </div>
+      <div class="item">
+        <div class="date">Jun 2013 - Jun 2014</div>
+        <h3>MIS Developer</h3>
+        <h4>Funnel Malaysia Sdn Bhd · Kuala Lumpur</h4>
+        <p>Developed and maintained client projects ensuring reliable performance and smooth delivery. Provided ongoing support and bug fixes to resolve issues quickly. Documented system processes and features to improve clarity and long-term maintainability.</p>
+      </div>
+      <div class="item">
+        <div class="date">Jul 2012 - Jun 2013</div>
         <h3>Web Developer</h3>
-        <h4>Acme Software</h4>
-        <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps.</p>
+        <h4>Mudah.my · Kuala Lumpur</h4>
+        <p>Developed and maintained the company website and core systems. Designed and enhanced features from Product Owner and Product Manager requirements. Actively participated in the Scrum process to deliver production-ready solutions.</p>
       </div>
       <div class="item">
-        <div class="date">August 2016 - May 2018</div>
-        <h3>Junior Full Stack Developer</h3>
-        <h4>Globex Corporation</h4>
-        <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.</p>
+        <div class="date">Apr 2009 - May 2012</div>
+        <h3>Web Programmer</h3>
+        <h4>NetBuilder (M) Sdn Bhd · Klang</h4>
+        <p>Improved internal lead and ticketing systems to enhance workflow efficiency. Maintained and resolved bugs on client and merchant websites; customized e-commerce modules.</p>
+      </div>
+      <div class="item">
+        <div class="date">Mar 2007 - Oct 2008</div>
+        <h3>Web Developer</h3>
+        <h4>Netallianz Web Design · Puchong</h4>
+        <p>Designed, developed, and maintained company and client websites. Delivered responsive web solutions and customized WordPress templates.</p>
       </div>
     </section>
 
     <section id="education">
       <h2 class="section-title">Education</h2>
       <div class="item">
-        <div class="date">August 2012 - May 2016</div>
-        <h3>Massachusetts Institute of Technology</h3>
-        <h4>Bachelor of Science, Computer Science</h4>
-        <p>GPA: 3.9/4.0</p>
+        <div class="date">2006</div>
+        <h3>Swinburne University of Technology, Sarawak</h3>
+        <h4>Bachelor's Degree, Business/Commerce</h4>
+      </div>
+      <div class="item">
+        <div class="date">2001</div>
+        <h3>Politeknik Kota Kinabalu, Sabah</h3>
+        <h4>Diploma of Education, Accounting</h4>
       </div>
     </section>
 
     <section id="skills">
       <h2 class="section-title">Skills</h2>
-      <h4>Programming Languages &amp; Tools</h4>
+      <h4>Top Skills</h4>
       <ul>
-        <li>JavaScript</li><li>TypeScript</li><li>Python</li>
-        <li>Java</li><li>Node.js</li><li>React</li>
-        <li>Vue.js</li><li>Docker</li><li>Git</li>
-        <li>SQL</li><li>AWS</li><li>GraphQL</li>
-      </ul>
-      <br><br>
-      <h4>Workflow</h4>
-      <ul>
-        <li>Agile &amp; Scrum</li><li>Test Driven Development</li>
-        <li>Cross Functional Teams</li><li>CI/CD</li>
+        <li>Programming (PHP)</li><li>MySQL</li><li>JavaScript</li>
+        <li>CodeIgniter 4</li><li>WordPress</li><li>Progressive Web Apps</li>
+        <li>Agentic Automation</li><li>AI Agents</li><li>Google Charts</li>
+        <li>Go</li><li>TypeScript</li><li>SQLite3</li>
+        <li>Git</li><li>Raspberry Pi</li><li>Linux</li>
       </ul>
     </section>
 
-    <section id="interests">
-      <h2 class="section-title">Interests</h2>
-      <p>Apart from being a web developer, I enjoy a majority of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Massachusetts, I enjoy mountain biking, free climbing, and kayaking.</p>
-      <p>When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-    </section>
-
-    <section id="awards">
-      <h2 class="section-title">Awards &amp; Certifications</h2>
-      <ol>
-        <li>Certified AWS Solutions Architect - Associate</li>
-        <li>Google Cloud Professional Developer</li>
-        <li>Best Web Developer Award of the Year - TechCorp 2023</li>
-        <li>Microsoft Certified: Azure Fundamentals</li>
-      </ol>
+    <section id="projects">
+      <h2 class="section-title">Featured &amp; Repositories</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Radio Emart</h3>
+          <h4>Featured Project</h4>
+          <p>Web-based radio streaming and management system for Emart Outlets — playlist management and multi-outlet audio streaming.</p>
+          <div class="tags"><span>PHP</span><span>SQLite3</span><span>JavaScript</span></div>
+        </div>
+        <div class="card">
+          <h3>Flightradar24 ADS-B</h3>
+          <h4>Featured Project</h4>
+          <p>ADS-B flight tracking receiver at Emart Hotel, feeding live aircraft data to Flightradar24 for guests and operations.</p>
+          <div class="tags"><span>Raspberry Pi</span><span>ADS-B</span><span>Linux</span></div>
+        </div>
+        <div class="card">
+          <h3>FnB-WServer</h3>
+          <h4>Public Repository</h4>
+          <p>F&amp;B Server — Go on Windows.</p>
+          <div class="tags"><span>Go</span><span>TypeScript</span></div>
+        </div>
+        <div class="card">
+          <h3>Icecast-Radio-Admin</h3>
+          <h4>Public Repository</h4>
+          <p>Admin for Icecast in Ubuntu.</p>
+          <div class="tags"><span>PHP</span></div>
+        </div>
+        <div class="card">
+          <h3>Lotto</h3>
+          <h4>Public Repository</h4>
+          <p>Self-host web scrape and data store.</p>
+          <div class="tags"><span>JavaScript</span></div>
+        </div>
+        <div class="card">
+          <h3>WPdfparser</h3>
+          <h4>Public Repository</h4>
+          <p>Windows PDF parser saving into SQLite3.</p>
+          <div class="tags"><span>JavaScript</span></div>
+        </div>
+        <div class="card">
+          <h3>Ltest-Mcp</h3>
+          <h4>Public Repository</h4>
+          <p>MCP experimentation &amp; testing.</p>
+          <div class="tags"><span>Go</span></div>
+        </div>
+      </div>
     </section>
   </main>
 
